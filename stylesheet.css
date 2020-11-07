@@ -1,0 +1,209 @@
+@media screen and (max-width:768px){
+    .resume{
+        flex-direction: column;
+        
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .resume{
+        width: 375px;
+
+    }
+}
+
+
+
+@media screen and (max-width:375px){
+    .resume .resume_left{
+        width: 100%;
+    }
+    
+
+}
+@media screen and (max-width:375px){
+    .resume .resume_right {
+        width:375px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.resume {
+    height: auto;
+    display: flex;
+    margin: 0px auto;
+    padding: 25px auto;
+    border-color: black;
+    border-radius: 1em;
+    position: relative;
+}
+
+
+.resume .resume_left {
+    width: 300px;
+    background: #FECA07;
+
+
+}
+
+.resume_left .resume_profile {
+    width: 300px;
+    height: auto;
+}
+
+.resume_profile {
+    width: 75%;
+    height: 75%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.resume_profile img {
+    width: 150px;
+    border-radius: 80px;
+}
+
+.title {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.resume .resume_left .bold {
+    color: #FECA07;
+    background: #404040;
+    width: 100%;
+}
+
+ul {
+    margin: 20px 20px;
+
+}
+
+.resume_about_me {
+    margin-bottom: auto;
+
+}
+
+#about_me {
+    text-align: justify;
+    margin: 20px 20px 800px 20px;
+
+}
+
+.icon {
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.icon i {
+    margin: 10px;
+    text-align: center;
+}
+
+.resume_item.resume_hobbies {
+    direction: flex-end;
+}
+
+
+.resume .resume_right {
+    width: 500px;
+    height: auto;
+}
+
+.header {
+    padding: 50px 0px 0px 25px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.name {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 200;
+    font-size: 30px;
+
+}
+
+.name p {
+    padding: 0px;
+}
+
+.name span {
+    color: #FECA07;
+    font-weight: 700;
+}
+
+.role {
+    text-transform: lowercase;
+    font-size: 16px;
+
+}
+
+
+hr {
+    background: #FECA07;
+    font: solid 20px;
+    width: auto;
+}
+
+
+.li_wrap {
+    display: flex;
+}
+
+.li_wrap p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.date {
+    width: 150px;
+}
+
+.date::before {
+    display: inline-block;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+
+}
+
+.right_inner .li_wrap .info {
+    width: 100%;
+    margin: 20px;
+}
+
+.right_inner .li_wrap .info_cont {
+    margin-top: 15px;
+}
+
+.ref_wrap {
+    display: flex;
+}
